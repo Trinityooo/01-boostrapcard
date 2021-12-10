@@ -1,0 +1,75 @@
+.card-body .progress {
+  right: 0;
+  top: 15px;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  width: 70%;
+}
+
+.card-body .progress-step {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.order-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.order-list .order-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.order-list .order-input {
+  width: 50px;
+}
+
+.order-list input::-webkit-outer-spin-button,
+.order-list input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.order-item-count {
+  margin-left: auto;
+  text-align: right;
+}
+
+.order-item-count > div > span:last-child {
+  display: inline-block;
+  width: 100px;
+}
+
+.order-item-step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=checkout1.css.map */
